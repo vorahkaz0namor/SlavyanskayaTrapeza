@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Славянская Трапеза</string>
+    <string name="menu">Меню</string>
+    <string name="sample_order">Заказ (0)</string>
+    <string name="order">Заказ (%1$d)</string>
+    <string name="revocations">Отзывы</string>
+    <string name="about">О нас</string>
+    <string name="approve_order">Сделать заказ</string>
+    <string name="small_portion_cost">%1$d руб</string>
+</resources>

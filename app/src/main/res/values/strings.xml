@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Slavyanskaya Trapeza</string>
+    <string name="menu">Menu</string>
+    <string name="sample_order">Order (0)</string>
+    <string name="order">Order (%1$d)</string>
+    <string name="revocations">Reviews</string>
+    <string name="about">About us</string>
+    <string name="approve_order">Make order</string>
+    <string name="small_portion_quantity" translatable="false">%1$d %2$s</string>
+    <string name="small_portion_cost">%1$d rub</string>
+</resources>

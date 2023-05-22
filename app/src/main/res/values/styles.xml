@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AppTheme.TrapezaButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">?attr/colorControlNormal</item>
+        <item name="android:textColor">?attr/colorControlNormal</item>
+        <item name="rippleColor">@color/rippling_button</item>
+        <item name="iconPadding">@dimen/indent</item>
+        <item name="android:paddingTop">@dimen/zero_dp</item>
+        <item name="android:paddingBottom">@dimen/zero_dp</item>
+        <item name="android:textSize">@dimen/button_text</item>
+    </style>
+
+    <style name="Widget.AppTheme.ChooserButton" parent="Widget.AppTheme.TrapezaButton">
+        <item name="android:minWidth">@dimen/zero_dp</item>
+        <item name="iconPadding">@dimen/zero_dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+    <style name="Widget.AppTheme.CountText" parent="Widget.AppTheme.ChooserButton">
+        <item name="android:textSize">@dimen/dish_text</item>
+    </style>
+
+    <style name="Widget.AppTheme.ChangeCountButton" parent="Widget.AppTheme.ChooserButton">
+        <item name="iconSize">@dimen/dish_text</item>
+        <item name="android:padding">@dimen/zero_dp</item>
+    </style>
+
+    <style name="Widget.AppTheme.TrapezaText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/dish_text</item>
+        <item name="android:textColor">?attr/colorControlNormal</item>
+        <item name="android:paddingStart">@dimen/indent</item>
+        <item name="android:paddingEnd">@dimen/indent</item>
+    </style>
+</resources>
